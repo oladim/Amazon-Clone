@@ -1,0 +1,68 @@
+/* .home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+} */
+
+/* img {
+  max-height: 100%;
+  width: 100%;
+  object-fit: contain;
+ 
+} */
+
+.ordersItem{
+  display: flex;
+  padding: 20px 20px;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  /* margin-top: 20px; */
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-top: 50px;
+
+  /* padding: 40px;
+  margin: 20px 0;
+ 
+  position: relative;
+  border: 1px solid lightgray; */
+}
+
+.your__orders{
+font-size: 2rem;
+}
+
+.product__margin{
+text-align: right;
+}
+
+/* .subtotals{
+text-align: center;
+} */
+/* .middle{
+  padding-top: max-content;
+} */
+
+/* td.mymargin{
+  max-width: 100px;
+} */
+
+/* .mymargin img:hover {
+  transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+/* } */
+
+/* .main_content{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+} */
+
+ 
+  
+  

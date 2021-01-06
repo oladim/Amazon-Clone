@@ -1,0 +1,152 @@
+
+
+
+.login {
+    background-color: white;
+    height: 97vh;
+  
+    margin-bottom: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.login__logo { 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    width: 180px;
+    margin-right: auto;
+    margin-left: auto;
+  } 
+
+ 
+
+.login__container {
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.login__container > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+  } 
+
+.login__container > form > h5 {
+    margin-bottom: 5px;
+} 
+
+.login__container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+  }
+
+ .login__container > p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login__signInButton {
+    background-color: #50C878;
+    border-radius: 1px;
+    width: 100%;
+    height: 40px;
+    outline-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    
+  }
+
+  .login__signInButton:hover{
+    background-color: white;
+    border: 1px solid #50C878 ;
+    color: #50C878;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    
+  }
+ 
+
+  .login_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  .login__registerButton {
+/* 
+    background-color: #50C878;
+    border-radius: 1px;
+    width: 100%;
+    height: 40px;
+    outline-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white; */
+  
+    border-radius: 2px;
+    width: 96%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+    outline-style: none;
+  }
+
+  .btn-fill-out {
+    background-color: transparent;
+    background-color: white;
+    border: 1px solid ;
+    color: white;
+   
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .form-group{
+    padding: 10px;
+  }
+.form-control{
+  height: 50px;
+  width: 300px;
+  border-radius: 0.25rem;
+  border: 1px solid rgb(206, 212, 217);
+  outline-style: none;
+  opacity: 1.5;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-left: 10px;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border-width: 1px;
+  border-image: initial;
+  transition: 0.15s ease-in-out 0s;
+
+  
+}
+
+/* .form-control:hover{
+  opacity: 2.0;
+} */
+.form-control:focus{
+  border: 2px solid lightgreen;
+}
+

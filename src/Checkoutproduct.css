@@ -1,0 +1,40 @@
+img {
+    max-height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 9px;
+  }
+
+   .middle{
+    padding-top: max-content;
+
+
+  }
+
+  td.mymargin{
+    max-width: 100px;
+    padding-left: 100px;
+  } 
+
+  /* .mymargin img:hover { */
+    /* transform: scale(2); (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  /* } */
+
+   .checkout{
+    display: flex;
+  }
+
+
+   .middle span button{
+    background-color: white;
+    color: red;
+    border: none;
+    font-weight: 700;
+    font-size: 12px; 
+    outline-style: none;
+    cursor: pointer;
+   }
+
+   .price__margin{
+    margin-left: 100px;
+   }
